@@ -41,9 +41,9 @@ function render() {
         rows += `
             <tr>
                 <td>${ship.name}</td>
-                <td>${ship.size}</td>
+                <td>${ship.length}</td>
                 <td>${ship.price}</td>
-                <td>${ship.people}</td>
+                <td>${ship.person}</td>
                 <td>${ship.trailer}</td>
             </tr>
         `;

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "json-server --watch ships.json --port 8000",
     "start": "lite-server"
   },
   "keywords": [],
